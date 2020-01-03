@@ -23,7 +23,7 @@ public enum GYRollingNoticeViewStatus: UInt {
 open class GYRollingNoticeView: UIView {
     weak open var dataSource : GYRollingNoticeViewDataSource?
     weak open var delegate : GYRollingNoticeViewDelegate?
-    open var stayInterval = 2.0
+    open var stayInterval = 5.0
     open private(set) var currentIndex = 0
     open private(set) var status: GYRollingNoticeViewStatus = .idle
     
